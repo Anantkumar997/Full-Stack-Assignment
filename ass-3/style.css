@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color:#000 ; */
+    background-image: url("pic.jpeg");
+    /* background-repeat: no-repeat, repeat; */
+   
+}
+.btn{
+    color: white;
+     border:2px solid white;
+     padding-left: 10px ;
+     padding-right: 10px;
+     border-radius: 10px;
+     background-color:hsla(0, 0%, 86%, 0.137);
+     transition: 0.5s;
+    
+}
+h2{
+    text-align: center;
+    text-decoration: none; 
+}
+.btn:hover{
+    /* color:gold; */
+    transform: scale(1.02);
+    color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 250px;
+    
+}
