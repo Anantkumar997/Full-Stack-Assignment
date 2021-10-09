@@ -1,4 +1,4 @@
-let weather = {
+ let weather = {
     apiKey : "40a363337e90431ba17eac339b78fdfd",
     fetchWeather : function(city){
         fetch(
@@ -16,7 +16,7 @@ let weather = {
         const { temp, feels_like, humidity } = data.main;
         const { speed } = data.wind;
         // console.log(name,icon,description,temp,feels_like,humidity,speed);
-        document.querySelector(".city").innerText="Weathet in " + name;
+        document.querySelector(".city").innerText="Weather in " + name;
         document.querySelector(".icon").src = "https://openweathermap.org/img/wn/"+icon+".png";
         document.querySelector(".description").innerText= description;
         document.querySelector(".temp").innerText=temp + "°C";
